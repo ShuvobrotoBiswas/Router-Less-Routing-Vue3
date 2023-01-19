@@ -1,13 +1,13 @@
 <template>
   <div style="margin-top: 10%">
-    <div class="row flex-center text-h4">Welcome to this experiment For</div>
+    <div class="row flex-center text-h4">Welcome to this experiment Step-1</div>
     <div class="row flex-center text-h4 text-red">Routerless routing</div>
     <div class="row flex-center">
       <q-btn
         flat
-        label="Go to Page 1 (Login)"
+        label="Go to Page 0 (Home)"
         color="primary"
-        @click="$router.push({ name: 'login' })"
+        @click="$router.push({ name: 'home' })"
       />
       <q-btn
         flat
