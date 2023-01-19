@@ -26,6 +26,9 @@ const routes = [
         next({ name: "404" });
       }
     },
+    children: [
+      { path: "/home", component: () => import("pages/IndexPage.vue") },
+    ],
   },
   {
     path: "/home",
